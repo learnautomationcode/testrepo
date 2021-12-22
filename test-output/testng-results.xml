@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139805" started-at="2021-04-18T16:45:53 IST" finished-at="2021-04-18T16:48:13 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="139805" started-at="2021-04-18T16:45:53 IST" finished-at="2021-04-18T16:48:13 IST">
+      <class name="insuranceCalculation_Motorcycle.EndToEndTests_motorcycle">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="setupMethod" is-config="true" duration-ms="61102" started-at="2021-04-18T16:45:54 IST" finished-at="2021-04-18T16:46:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="insuranceCalculate(java.lang.Object)[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="insuranceCalculate" duration-ms="16185" started-at="2021-04-18T16:46:55 IST" data-provider="vehData" finished-at="2021-04-18T16:47:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=888, Product_startdate=12/12/2025, PriceValidation_Gold=696.00, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum= 5.000.000,00, Vehicle_Date of Manufacture=09/04/2019, Insurant_Hobby=speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2,621.00, PriceValidation_Silver=236.00, Vehicle_Make=Honda, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=666, Insurant_ImageFilePath=??, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1,367.00, Insurant_FirstName=Prakash, Insurant_birthdate=12/12/1989, Insurant_gender=Male}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Value is not present in dropdown for WebElement: [[ChromeDriver: chrome on WINDOWS (cfc96dbad57c11863599f3c9be3b8d2b)] -> id: insurancesum]Value to be selected is:  5.000.000,00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Value is not present in dropdown for WebElement: [[ChromeDriver: chrome on WINDOWS (cfc96dbad57c11863599f3c9be3b8d2b)] -> id: insurancesum]Value to be selected is:  5.000.000,00
+at reusableComponents.CommonMethods.selectDropdownOption(CommonMethods.java:118)
+at pageObjects.EnterProductDataPageObjects.enterProductData(EnterProductDataPageObjects.java:40)
+at insuranceCalculation_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceCalculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="cleanUp" is-config="true" duration-ms="2624" started-at="2021-04-18T16:47:12 IST" finished-at="2021-04-18T16:47:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="setupMethod" is-config="true" duration-ms="13814" started-at="2021-04-18T16:47:15 IST" finished-at="2021-04-18T16:47:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="insuranceCalculate(java.lang.Object)[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="insuranceCalculate" duration-ms="15541" started-at="2021-04-18T16:47:28 IST" data-provider="vehData" finished-at="2021-04-18T16:47:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=888, Product_startdate=12/12/2025, PriceValidation_Gold=772.00, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum= 20.000.000,00, Vehicle_Date of Manufacture=09/04/2001, Insurant_Hobby=speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2,626.00, PriceValidation_Silver=262.00, Vehicle_Make=Volvo, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=900, Insurant_ImageFilePath=??, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1,515.00, Insurant_FirstName=Seema, Insurant_birthdate=12/12/1977, Insurant_gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Value is not present in dropdown for WebElement: [[ChromeDriver: chrome on WINDOWS (b4e854c5dd0b73df20e97b1b8ab728e8)] -> id: insurancesum]Value to be selected is:  20.000.000,00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Value is not present in dropdown for WebElement: [[ChromeDriver: chrome on WINDOWS (b4e854c5dd0b73df20e97b1b8ab728e8)] -> id: insurancesum]Value to be selected is:  20.000.000,00
+at reusableComponents.CommonMethods.selectDropdownOption(CommonMethods.java:118)
+at pageObjects.EnterProductDataPageObjects.enterProductData(EnterProductDataPageObjects.java:40)
+at insuranceCalculation_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceCalculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="cleanUp" is-config="true" duration-ms="874" started-at="2021-04-18T16:47:44 IST" finished-at="2021-04-18T16:47:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="setupMethod" is-config="true" duration-ms="11439" started-at="2021-04-18T16:47:45 IST" finished-at="2021-04-18T16:47:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="insuranceCalculate(java.lang.Object)[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="insuranceCalculate" duration-ms="15109" started-at="2021-04-18T16:47:57 IST" data-provider="vehData" finished-at="2021-04-18T16:48:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=1000, Product_startdate=12/12/2025, PriceValidation_Gold=274.00, TC No=3, Vehicle_Annual Mileage=100, Product_insurancesum= 3.000.000,00, Vehicle_Date of Manufacture=09/04/1989, Insurant_Hobby=speeding,Other, SelectOption=Ultimate, PriceValidation_Ultimate=967.00, PriceValidation_Silver=93.00, Vehicle_Make=Ford, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=100, Insurant_ImageFilePath=??, Vehicle_Model=Moped, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Ford Moped, Vehicle_CylinderCapacity=100, PriceValidation_Platinum=538.00, Insurant_FirstName=Savali, Insurant_birthdate=12/12/1956, Insurant_gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Value is not present in dropdown for WebElement: [[ChromeDriver: chrome on WINDOWS (ce8a983c09755464ff441e0f6c172b51)] -> id: insurancesum]Value to be selected is:  3.000.000,00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Value is not present in dropdown for WebElement: [[ChromeDriver: chrome on WINDOWS (ce8a983c09755464ff441e0f6c172b51)] -> id: insurancesum]Value to be selected is:  3.000.000,00
+at reusableComponents.CommonMethods.selectDropdownOption(CommonMethods.java:118)
+at pageObjects.EnterProductDataPageObjects.enterProductData(EnterProductDataPageObjects.java:40)
+at insuranceCalculation_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceCalculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@6392827e]" name="cleanUp" is-config="true" duration-ms="976" started-at="2021-04-18T16:48:12 IST" finished-at="2021-04-18T16:48:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- insuranceCalculation_Motorcycle.EndToEndTests_motorcycle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
